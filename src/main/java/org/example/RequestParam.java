@@ -1,11 +1,10 @@
 package org.example;
 
-import java.lang.annotation.Retention;
-import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.*;
 
 @Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.PARAMETER)
 public @interface RequestParam {
-    String name() default "";
+    String value();
     String defaultValue() default "";
-    boolean required() default true;
 }

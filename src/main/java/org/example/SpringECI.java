@@ -32,7 +32,7 @@ public class SpringECI {
 
         // Hardcoded URLs for example
         String[] urls = {
-            "http://localhost:8080/App/hello",
+            "http://localhost:8080/App/hello1",
             "http://localhost:8080/App/goodbye",
             "http://localhost:8080/App/welcome"
         };
